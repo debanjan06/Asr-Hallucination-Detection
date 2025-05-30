@@ -1,0 +1,51 @@
+# Hallucination Detection Configuration
+
+detector:
+  model_name: "openai/whisper-base"
+  confidence_threshold: 0.7
+  device: "auto"  # auto, cpu, cuda
+
+detection:
+  # Repetition detection settings
+  repetition:
+    min_word_length: 3
+    max_pattern_length: 5
+    severity_threshold: 2
+  
+  # Phantom word detection
+  phantom_words:
+    silence_threshold_percentile: 10
+    energy_multiplier: 2.0
+  
+  # Language switching detection
+  language_switch:
+    enable_multilingual: true
+    confidence_threshold: 0.8
+  
+  # Attention analysis
+  attention:
+    anomaly_threshold: 0.3
+    pattern_window: 10
+
+scoring:
+  # Risk calculation weights
+  attention_weight: 0.3
+  confidence_weight: 0.4
+  temporal_weight: 0.2
+  hallucination_weight: 0.1
+  
+  # Risk thresholds
+  low_risk: 0.3
+  medium_risk: 0.6
+  high_risk: 0.8
+
+mitigation:
+  # Beam search parameters
+  beam_size: 5
+  repetition_penalty: 1.2
+  diversity_penalty: 0.5
+  
+  # Post-processing
+  enable_confidence_filtering: true
+  enable_repetition_removal: true
+  enable_temporal_validation: true
