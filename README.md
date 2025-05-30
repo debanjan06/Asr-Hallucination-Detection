@@ -215,14 +215,6 @@ python scripts/analyze_audio.py path/to/audio.wav
 - Multi-modal signal validation techniques
 - Production ML system reliability
 
-## 📬 Contact & Collaboration
-
-**Debanjan Shil**  
-M.Tech Data Science Student  
-📧 [Open for Research Collaboration](https://github.com/debanjan06/asr-hallucination-detection/issues)  
-🔗 [Research Profile](https://github.com/debanjan06)
-
-
 ## 📄 License
 
 This research project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
