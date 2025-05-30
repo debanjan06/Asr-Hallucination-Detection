@@ -228,12 +228,6 @@ M.Tech Data Science Student
 
 This research project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-🔬 **Advancing the State-of-the-Art in ASR Reliability**  
-⭐ **Star this repository to follow cutting-edge hallucination research!**  
-🔔 **Watch for updates** as we publish breakthrough results
-
 *Last Updated: May 31, 2025 | Status: Active Research Development*
 
 ---
