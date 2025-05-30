@@ -219,7 +219,6 @@ python scripts/analyze_audio.py path/to/audio.wav
 
 **Debanjan Shil**  
 M.Tech Data Science Student  
-🔬 Specializing in Robust Speech Recognition  
 📧 [Open for Research Collaboration](https://github.com/debanjan06/asr-hallucination-detection/issues)  
 🔗 [Research Profile](https://github.com/debanjan06)
 
