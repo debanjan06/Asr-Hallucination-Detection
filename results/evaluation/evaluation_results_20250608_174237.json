@@ -1,0 +1,107 @@
+{
+  "noise_robustness": [
+    {
+      "scenario": "clean_speech",
+      "snr": null,
+      "transcription": "Mock transcription for clean_speech",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 0.02,
+      "cer": 0.01,
+      "inference_time": 0.5182386299112555,
+      "success": true
+    },
+    {
+      "scenario": "noisy_10db",
+      "snr": 10,
+      "transcription": "Mock transcription for noisy_10db",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 0.05905227089195848,
+      "cer": 0.02423114431897529,
+      "inference_time": 0.5566935000868221,
+      "success": true
+    },
+    {
+      "scenario": "noisy_5db",
+      "snr": 5,
+      "transcription": "Mock transcription for noisy_5db",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 0.13780467830604415,
+      "cer": 0.0762815339081189,
+      "inference_time": 0.4874442079335598,
+      "success": true
+    },
+    {
+      "scenario": "noisy_0db",
+      "snr": 0,
+      "transcription": "Mock transcription for noisy_0db",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 0.17949716449698708,
+      "cer": 0.07360726320133643,
+      "inference_time": 0.4615057949694036,
+      "success": true
+    },
+    {
+      "scenario": "very_noisy",
+      "snr": -5,
+      "transcription": "Mock transcription for very_noisy",
+      "ground_truth": "The quick brown fox jumps over the lazy dog",
+      "wer": 0.37380835091572906,
+      "cer": 0.21086195947694672,
+      "inference_time": 0.2983125483438489,
+      "success": true
+    }
+  ],
+  "hallucination_detection": [
+    {
+      "test": "Repetition test",
+      "text": "hello hello world hello",
+      "expected": [
+        "repetition"
+      ],
+      "detected": [
+        "repetition"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "success": true
+    },
+    {
+      "test": "Pattern repetition test",
+      "text": "the quick brown the quick brown fox",
+      "expected": [
+        "pattern_repetition"
+      ],
+      "detected": [],
+      "precision": 1.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "success": true
+    },
+    {
+      "test": "Language switching test",
+      "text": "hello world se\u00f1or garcia merci",
+      "expected": [
+        "language_switch"
+      ],
+      "detected": [
+        "language_switch",
+        "language_switch"
+      ],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "success": true
+    },
+    {
+      "test": "Clean speech test",
+      "text": "normal clean speech without issues",
+      "expected": [],
+      "detected": [],
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "success": true
+    }
+  ]
+}
