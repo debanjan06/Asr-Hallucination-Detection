@@ -22,7 +22,7 @@ Modern neural ASR systems, while achieving remarkable accuracy on clean speech, 
 
 In critical applications like medical transcription, legal documentation, and safety systems, these errors can have **serious consequences**.
 
-## 🚀 **Our Solution**
+## 🚀 **My Solution**
 
 We present a comprehensive **multi-modal detection and mitigation framework** that:
 
