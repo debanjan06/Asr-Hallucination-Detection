@@ -361,12 +361,6 @@ We welcome contributions from the research and development community! Areas of p
 - **Reproducible Results**: Complete evaluation framework and datasets
 - **Knowledge Sharing**: Detailed documentation and educational resources
 
-## 📞 **Contact & Support**
-
-**📧 Technical Questions**: [Create an issue](https://github.com/debanjan06/asr-hallucination-detection/issues)  
-**🤝 Collaboration**: Open to research partnerships and industry collaboration  
-**📰 Media Inquiries**: Featured in technical publications and conferences  
-
 ## 📄 **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
