@@ -314,7 +314,7 @@ Transcription Quality Improvement:
 
 ## 🤝 **Contributing**
 
-We welcome contributions from the research and development community! Areas of particular interest:
+I welcome contributions from the research and development community! Areas of particular interest:
 
 ### **🔬 Research Contributions**
 - Novel hallucination detection algorithms
