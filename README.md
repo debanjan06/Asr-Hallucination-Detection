@@ -334,13 +334,6 @@ We welcome contributions from the research and development community! Areas of p
 - Multi-language examples
 - Domain-specific cases
 
-## 📚 **Documentation & Resources**
-
-### **📖 Research Papers & Articles**
-- 📰 **[Medium Article]**: Comprehensive overview and methodology (https://medium.com/@debanjanshil66/making-speech-recognition-work-in-the-real-world-how-i-built-ai-that-actually-listens-f277e6a7aa04)
-- 📄 **Technical Report**: Detailed implementation and evaluation
-- 🎓 **Research Methodology**: Academic approach and contributions
-
 ### **🎥 Demonstrations**
 - 🎮 **Interactive Demo**: Live hallucination detection
 - 📊 **Performance Analysis**: Comprehensive benchmarking results
@@ -383,12 +376,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 **🌟 Star this repository if you find it useful!**
-
-**🔔 Watch for updates** as we continue to advance hallucination detection research
-
-**🤝 Contribute** to help build more reliable speech recognition systems
-
----
+[📖 Read the Medium Article](https://medium.com/@debanjanshil66/making-speech-recognition-work-in-the-real-world-how-i-built-ai-that-actually-listens-f277e6a7aa04) • [🛠️ **Get Started**](#-getting-started)• [📊 **View Results**](results/) 
 
 ### **Advancing Speech Recognition Reliability, One Detection at a Time** 🎯
 
