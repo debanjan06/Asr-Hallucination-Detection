@@ -361,10 +361,6 @@ We welcome contributions from the research and development community! Areas of p
 - **Reproducible Results**: Complete evaluation framework and datasets
 - **Knowledge Sharing**: Detailed documentation and educational resources
 
-## 📄 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 <div align="center">
